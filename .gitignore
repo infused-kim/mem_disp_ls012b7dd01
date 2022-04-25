@@ -1,0 +1,29 @@
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+.DS_Store
+
+# Backups
+pcb/mem_disp_ls012b7dd01/mem_disp_ls012b7dd01-backups/
+
+# Gerbers (Should be published in releases)
+gerbers/
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Pixelmator files
+*.pxd

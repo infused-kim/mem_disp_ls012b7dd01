@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "_mem_disp_ls012b7dd01")(type "KiCad")(uri "${KIPRJMOD}/../lib/_mem_disp_ls012b7dd01.pretty")(options "")(descr ""))
+)
