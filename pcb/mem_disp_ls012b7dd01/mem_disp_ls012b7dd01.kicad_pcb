@@ -166,7 +166,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp a8447faf-e0a0-4c4a-ae53-4d4b28669151)
     )
-    (fp_text value "20uF" (at 0 -1.43 90) (layer "B.Fab") hide
+    (fp_text value "2.0uF" (at 0 -1.43 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 7f52d787-caa3-4a92-b1b2-19d554dc29a4)
     )

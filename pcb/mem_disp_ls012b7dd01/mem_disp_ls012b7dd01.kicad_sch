@@ -424,13 +424,18 @@
     (uuid f4df3026-25de-4d06-8041-674bd997cbca)
   )
 
+  (text "The 2017 datasheet seems to show that\na 20uF capacitor is required, but in\nreality 2.0uF is the correct value.\n\nThe font in the datasheet is squished,\nwhich causes the \".\" to merge with the \n\"2\".\n\nOlder datasheets also show a value of 2.0."
+    (at 142.24 97.79 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 64d8d7c0-bad7-4ff2-90d1-1c1561ddb95b)
+  )
   (text "The first four pins correspond to the\nusual OLED pins...\n\n  - SDA\n  - SCL\n  - VCC\n  - GND\n\nThe two additional pins are needed for\nmemory displays...\n\nSCS:\nRequired for operation.\n\n\nEXTCOMIN:\nNot strictly required, but without it\nthe display's lifetime may be reduced."
     (at 15.24 68.58 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f108699d-b558-4621-b3a3-b008e57a59e3)
   )
   (text "This sets the DISP pin to always high\nand causes the display to show the\ncontent."
-    (at 124.46 57.15 0)
+    (at 96.52 44.45 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fd92289d-9153-4e09-ae96-1a45ecd4f9e4)
   )
@@ -612,7 +617,7 @@
     (property "Reference" "C2" (id 0) (at 165.1 66.4209 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "20uF" (id 1) (at 165.1 68.9609 0)
+    (property "Value" "2.0uF" (id 1) (at 165.1 68.9609 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (id 2) (at 162.2552 72.39 0)
@@ -759,7 +764,7 @@
       (reference "C1") (unit 1) (value "560pF/680pF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/7ee89d17-12d2-4f80-9faa-05ab2e85805e"
-      (reference "C2") (unit 1) (value "20uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "C2") (unit 1) (value "2.0uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/bf3ea006-d053-4aa4-bdaa-5952aedf8d1c"
       (reference "J1") (unit 1) (value "Pin Header") (footprint "_mem_disp_ls012b7dd01:PinSocket_1x04_1x02_P2.54mm_Vertical")
