@@ -15,9 +15,6 @@ fp-info-cache
 # Backups
 pcb/mem_disp_ls012b7dd01/mem_disp_ls012b7dd01-backups/
 
-# Gerbers (Should be published in releases)
-gerbers/
-
 # Netlist files (exported from Eeschema)
 *.net
 
